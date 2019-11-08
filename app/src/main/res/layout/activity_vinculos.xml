@@ -11,7 +11,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        app:srcCompat="@mipmap/vinculosLogo" />
+        app:srcCompat="@mipmap/vinculoslogo" />
 
     <TextView
         android:id="@+id/textView3"
