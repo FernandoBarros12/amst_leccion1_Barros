@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Sidweb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v1) {
-                Intent intent = new Intent (v1.getContext(), Academico.class);
-                startActivityForResult(intent, 0);
+                Intent intent1 = new Intent (v1.getContext(), Academico.class);
+                startActivityForResult(intent1, 0);
             }
         });
 
@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v2) {
-                Intent intent = new Intent (v2.getContext(), Vinculos.class);
-                startActivityForResult(intent, 0);
+                Intent intent2 = new Intent (v2.getContext(), Vinculos.class);
+                startActivityForResult(intent2, 0);
             }
         });
 
@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v3) {
-                Intent intent = new Intent (v3.getContext(), Bienestar.class);
-                startActivityForResult(intent, 0);
+                Intent intent3 = new Intent (v3.getContext(), Bienestar.class);
+                startActivityForResult(intent3, 0);
             }
         });
 
